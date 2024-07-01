@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Học inline event</h1>
+    <button onclick="alert('Bạn đã nhấp vào nút')">Click me!</button>
+    <button onclick="alert('Bạn đã nhấp vào nút'); alert('Thông điệp 2')">Click me!</button>
+    <button ondblclick="alert('Bạn đã nhấp vào nút')">Click me!</button>
+
+    <div onmouseover="this.style.backgroundColor = 'yellow'"
+        onmouseleave="this.parentElement.style.backgroundColor = 'red'">Di
+        chuyển con trỏ qua đây</div>
+    <input type="text" onkeypress="alert('Bạn đã nhấn 1 phím')">
+    <script src="main.js"></script>
+</body>
+
+</html>
